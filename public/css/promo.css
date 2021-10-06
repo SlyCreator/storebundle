@@ -1,0 +1,154 @@
+.nav-impression-super {
+    column-gap: 50px;
+}
+
+.nav-impression-con {
+    display: block !important;
+    width: auto;
+}
+
+.nav-impression-con .progress-bar-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #78797c;
+}
+
+.nav-impression-con .progress {
+    width: 250px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.nav-impression-con .progress .value {
+    width: 20px;
+    background-color: #ff93a2;
+    border-radius: 0 20px 20px 0;
+}
+
+.nav-impression-con p {
+    font-size: 75%;
+}
+
+.promo-top-con {
+    margin: 25px 30px -20px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo-top-con h6 {
+    font-weight: bold;
+}
+
+.promo-top-description {
+    width: 550px;
+}
+
+.promo-bar-switch-con {
+    width: 220px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.top-promo-btn {
+    padding: 13px 20px;
+    border-radius: 7px;
+    background-color: #ff647b;
+}
+
+.top-promo-btn p {
+    font-size: 80%;
+}
+
+thead {
+    background-color: #f8f8f8;
+    width: 90px;
+}
+
+thead tr th {
+    padding: 16px 10px !important;
+}
+
+thead tr th div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+thead tr th div i {
+    font-size: 60%;
+}
+
+.fa-exchange-alt {
+    transform: rotateZ(90deg);
+}
+
+table tr td {
+    padding: 10px 10px !important;
+    vertical-align: middle;
+    border-top: 3px solid #f8f8f8 !important;
+}
+
+#elipse {
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.table-btns {
+    font-size: 80%;
+}
+
+#red,
+#green {
+    border: 1px solid #ffa0a2 !important;
+    padding: 0 5px;
+    background-color: #fff1f0;
+    color: #fb2a3e;
+}
+
+#green {
+    border: 1px solid #b4ea9a !important;
+    background-color: #f6ffef;
+    color: #89d979;
+}
+
+.promo-bottom-con {
+    margin: -15px 30px 60px 25px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    column-gap: 10%;
+}
+
+.promo-bottom-con h6 {
+    font-weight: bold;
+}
+
+input[type="checkbox"]:before {
+    border: hidden;
+    content: "\00a0";
+    display: inline-block;
+    font: 12px/1em sans-serif;
+    height: 13px;
+    margin: 0 0.25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 13px;
+}
+
+input[type="checkbox"]:checked:before {
+    background: #ff647b;
+    color: white;
+    content: "\2713";
+    font-size: 12px;
+    text-align: center;
+}
+
+input[type="checkbox"]:checked:after {
+    font-weight: bold;
+}
+
+input[type="checkbox"]:focus::before {
+    outline: #ffa0a2 auto 5px;
+}
